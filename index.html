@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webspark</title>
+    <link rel="stylesheet" href="css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-background"></div>
+      <div id="container">
+        <div class="header-logo">
+          <img src="img/logo.png" alt="Logo" />
+        </div>
+        <div class="header-content">
+          <div class="header-content-title">
+            <div class="header-title">
+              <h1 class="text-h1">monblanproject</h1>
+            </div>
+            <div class="header-button">
+              <button>Start on 17-02-2016</button>
+            </div>
+          </div>
+          <div class="header-content-info">
+            <div class="header-info-item">
+              <p class="text-p-mini">
+                870 <span class="text-span">posts</span>
+              </p>
+            </div>
+            <div class="header-info-item">
+              <p class="text-p-mini">
+                11,787 <span class="text-span">followers</span>
+              </p>
+            </div>
+            <div class="header-info-item">
+              <p class="text-p-mini">
+                112 <span class="text-span">following</span>
+              </p>
+            </div>
+          </div>
+          <div class="header-content-date">
+            <p class="text-p">Date</p>
+            <div class="header-date-input">
+              <input
+                type="text"
+                class="form-control header-input"
+                id="date-from"
+                name="date-from"
+                placeholder="from"
+              />
+              <img class="header-close" src="img/close.png" alt="Close" />
+              <img
+                class="header-calendar"
+                src="img/calendar.png"
+                alt="Calendar"
+              />
+            </div>
+            <div class="header-date-input">
+              <input
+                type="text"
+                class="form-control header-input"
+                id="date-to"
+                name="date-to"
+                placeholder="to"
+              />
+              <img class="header-close" src="img/close.png" alt="Close" />
+              <img
+                class="header-calendar"
+                src="img/calendar.png"
+                alt="Calendar"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div id="container">
+        <div class="main-top-background-image">
+          <img src="img/main-top-background.png" alt="main-top-background" />
+        </div>
+        <div class="main-buttons">
+          <div class="main-buttons-row active">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="6"
+              height="6"
+              viewBox="0 0 6 6"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+            </svg>
+          </div>
+          <div class="main-buttons-grid">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="22"
+              viewBox="0 0 24 22"
+              fill="none"
+            >
+              <rect width="6" height="6" fill="#C8C7C7" />
+              <rect y="8" width="6" height="6" fill="#C8C7C7" />
+              <rect y="16" width="6" height="6" fill="#C8C7C7" />
+              <rect x="9" y="10" width="15" height="2" fill="#C8C7C7" />
+              <rect x="9" y="18" width="15" height="2" fill="#C8C7C7" />
+              <rect x="9" y="2" width="15" height="2" fill="#C8C7C7" />
+            </svg>
+          </div>
+        </div>
+        <div class="main-ul">
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-1.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-2.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-3.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-4.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-5.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-6.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-7.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-8.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-li">
+            <div class="main-li-image">
+              <img src="img/list/list-9.png" alt="list-1" />
+            </div>
+            <div class="main-li-day">
+              <div class="main-li-day-title">
+                <p class="text-p">Today</p>
+              </div>
+              <div class="main-li-day-content">
+                <div class="li-day-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-day-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-date">
+              <div class="main-li-date-title">
+                <p class="text-p">9-08-2016</p>
+              </div>
+              <div class="main-li-date-content">
+                <div class="li-date-content-heart">
+                  <img src="img/heart.png" alt="heart" />
+                  <p class="text-p-mini">128</p>
+                </div>
+                <div class="li-date-content-coment">
+                  <img src="img/coment.png" alt="coment" />
+                  <p class="text-p-mini">31</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-li-load">
+              <div class="main-li-load-text">
+                <p class="text-p">Image upload</p>
+              </div>
+              <div class="main-li-load-date">
+                <p class="text-p-mini">11-04-2016</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-button-load">
+          <button class="button">Load more</button>
+        </div>
+        <div class="main-bot-background-image">
+          <img src="img/main-bot-background.png" alt="main-bot-background" />
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
