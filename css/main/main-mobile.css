@@ -17,6 +17,9 @@
   .main-bot-background-image {
     right: 0;
   }
+  .main-ul.grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (max-width: 768px) {
   .main-top-background-image {
@@ -24,7 +27,7 @@
     left: -300px;
   }
   .main-ul.grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 576px) {
